@@ -22,21 +22,51 @@ li {
 }
 
 .numbers-container {
+    position: relative;
+
     margin: auto;
+    height: 100%;
     min-width: 320px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .numbers-hero {
-    padding-top: 484px;
     height: 740px;
     background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.numbers-adress {
+    position: absolute;
+    top: 64px;
+    right: 15px;
+    display: flex;
+    gap: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    width: 210px;
+    height: 47px;
+
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+}
+
+.adress-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.01em;
+
+    color: #E5E5E5;
+}
+
+
 .numbers-h1 {
+    padding-top: 484px;
     margin: 0;
     font-family: 'Times New Roman';
     font-size: 28px;
@@ -47,6 +77,7 @@ li {
 }
 
 .numbers-hero-text {
+    max-width: 325px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -67,10 +98,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.numbers-social-item + li {
-    margin-top: 12px;
+    gap: 12px;
 }
 
 .social-link {
@@ -193,10 +221,12 @@ li {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .numbers-hero {
         background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-tablet.jpg);
         background-size: cover;
     }
+
     @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
@@ -212,10 +242,96 @@ li {
         padding-left: 47px;
         padding-right: 47px;
     }
+
     .numbers-hero {
         height: 718px;
         background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-desktop.jpg);
     }
+
+    .numbers-h1 {
+        margin-bottom: 24px;
+        padding-top: 468px;
+        font-size: 36px;
+        line-height: calc(41 / 36);
+        letter-spacing: 0.05em;
+    }
+
+    .numbers-hero-text {
+        max-width: 400px;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+    }
+
+    .numbers-adress {
+        position: static;
+        width: 285px;
+        height: 56px;
+        gap: 16px;
+        padding-left: 16px;
+    }
+
+    .adress-text {
+        font-size: 16px;
+        line-height: calc(20 / 16);
+    }
+
+    .numbers-hero-socials {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+    }
+
+    .numbers-social-item {
+        margin-top: 0;
+    }
+
+    .number-price-modal-button {
+        position: absolute;
+        bottom: 62px;
+        right: 47px;
+    }
+
+    .hero-wrap {
+        margin-top: 24px;
+        gap: 41px;
+    }
+
+    .numbers-description-header-wrap > .numbers-text {
+        max-width: 757px;
+    }
+
+    .numbers-description {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .numbers-discription-list {
+        display: flex;
+        gap: 80px;
+    }
+
+    .numbers-text {
+        max-width: 400px;
+    }
+
+    .number-booking-modal-button {
+        width: 434px;
+        margin-left: 480px;
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+
+    .numbers-backlink-wrap {
+        margin-left: 480px;
+        justify-content: flex-start;
+    }
+    
+    .numbers-backlink {
+        font-size: 20px;
+        line-height: calc(24 / 20);
+    }
+
     @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
@@ -231,7 +347,44 @@ li {
         padding-left: 85px;
         padding-right: 85px;
     }
+
     .numbers-hero {
         height: 720px;
+    }
+
+     .numbers-h1 {
+        padding-top: 524px;
+     }
+
+    .numbers-adress {
+        display: none;
+    }
+
+    .numbers-hero-socials {
+        position: absolute;
+        top: 41px;
+        right: 88px;
+    }
+
+    .number-price-modal-button {
+        bottom: 66px;
+        right: 85px;
+    }
+
+    .numbers-discription-list {
+        gap: 159px;
+    }
+
+    .number-booking-modal-button {
+        margin-left: 559px;
+    }
+
+     .numbers-backlink-wrap {
+        margin-left: 559px;
+    }
+
+    .numbers-description {
+        padding-top: 48px;
+        padding-bottom: 48px;
     }
 }
