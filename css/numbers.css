@@ -1,15 +1,14 @@
 body {
-    margin: auto;
-
+  margin: auto;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
@@ -22,453 +21,486 @@ li {
 }
 
 .numbers-container {
-    position: relative;
+  position: relative;
 
-    margin: auto;
-    height: 100%;
-    min-width: 320px;
-    padding-left: 10px;
-    padding-right: 10px;
+  margin: auto;
+  height: 100%;
+  min-width: 320px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .numbers-hero {
-    height: 740px;
-    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 740px;
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 8.07%,
+      rgba(0, 0, 0, 0) 16.15%
+    ),
+    url(../images/room.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .room-hero-btn {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 
-    background: rgba(0, 0, 0, 0.65);
-    border: 0;
+  background: rgba(0, 0, 0, 0.65);
+  border: 0;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-left {
-    position: absolute;
-    top: 350px;
-    left: 15px;
+  position: absolute;
+  top: 350px;
+  left: 15px;
 }
 
 .btn-right {
-    position: absolute;
-    top: 350px;
-    right: 15px;
+  position: absolute;
+  top: 350px;
+  right: 15px;
 }
 
 .btn-switch-icon {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .room-hero-btn:hover > .btn-switch-icon,
 .room-hero-btn:focus > .btn-switch-icon {
-    fill: #F3C653;
+  fill: #f3c653;
 }
 
 .room-hero-btn:hover,
 .room-hero-btn:focus {
-    cursor: pointer;
-    fill: #F3C653;
+  cursor: pointer;
+  fill: #f3c653;
 }
 
 .numbers-adress {
-    position: absolute;
-    top: 64px;
-    right: 15px;
-    display: flex;
-    gap: 13px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 11px;
-    width: 210px;
-    height: 47px;
+  position: absolute;
+  top: 64px;
+  right: 15px;
+  display: flex;
+  gap: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 11px;
+  width: 210px;
+  height: 47px;
 
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
 }
 
 .adress-text {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: calc(15 / 12);
-    letter-spacing: 0.01em;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.01em;
 
-    color: #E5E5E5;
+  color: #e5e5e5;
 }
 
-
 .numbers-h1 {
-    padding-top: 484px;
-    margin: 0;
-    font-family: 'Times New Roman';
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    margin-bottom: 14px;
+  padding-top: 484px;
+  margin: 0;
+  font-family: "Times New Roman";
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 14px;
 }
 
 .numbers-hero-text {
-    max-width: 325px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: calc(15 / 12);
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+  max-width: 325px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-wrap {
-    margin-top: 17px;
-    display: flex;
-    gap: 71px;
-    align-items: center;
+  margin-top: 17px;
+  display: flex;
+  gap: 71px;
+  align-items: center;
 }
 
 .numbers-hero-socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 .social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .number-price-modal-button {
-    width: 232px;
-    height: 48px;
+  width: 232px;
+  height: 48px;
 
-    background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
 
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
 
-    font-family: 'Montserrat';
-    font-weight: 700;
-    line-height: calc(20 / 16);
-    letter-spacing: 0.02em;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
 
-    color: #F3C653;
+  color: #f3c653;
 }
 
 .number-price-modal-button:hover,
 .number-price-modal-button:focus {
-    background: #FFFFFF;
-    border: 2px solid #F3C653;
-    cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #f3c653;
+  cursor: pointer;
 }
 
-
 .numbers-description {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    background: #F0ECD6;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #f0ecd6;
 }
 
 .numbers-h2 {
-    font-family: 'Times New Roman';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: calc(37 / 32);
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: calc(37 / 32);
 
-    color: #000000;
+  color: #000000;
 }
 
 .numbers-text {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    letter-spacing: 0.02em;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
 
-    color: #7A7A7A;
+  color: #7a7a7a;
 
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .numbers-h3 {
-    font-family: 'Times New Roman';
-    font-size: 24px;
-    line-height: calc(28 /24);
+  font-family: "Times New Roman";
+  font-size: 24px;
+  line-height: calc(28 / 24);
 
-    color: #000000;
-    margin-top: 32px;
+  color: #000000;
+  margin-top: 32px;
 }
 
 .number-booking-modal-button {
-    width: 100%;
-    height: 64px;
+  width: 100%;
+  height: 64px;
 
-    background: #000000;
+  background: #000000;
 
-    border: 1px solid #F3C653;
-    border-radius: 25px;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
 
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(24 / 20);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
 
-    color: #FFFFFF;
+  color: #ffffff;
 
-    margin-top: 32px;
-    margin-bottom: 20px;
+  margin-top: 32px;
+  margin-bottom: 20px;
 }
 
 .number-booking-modal-button:hover,
 .number-booking-modal-button:focus {
-    background: #F3C653;
-    border: 1px solid #F3C653;
-    color: #000000;
-    cursor: pointer;
+  background: #f3c653;
+  border: 1px solid #f3c653;
+  color: #000000;
+  cursor: pointer;
 }
 
 .numbers-backlink-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .numbers-backlink:hover > .numbers-backlink-icon,
-.numbers-backlink:focus > .numbers-backlink-icon{
-    visibility: hidden;
+.numbers-backlink:focus > .numbers-backlink-icon {
+  visibility: hidden;
 }
 
 .numbers-backlink:hover,
 .numbers-backlink:focus {
-    color: #F3C653;
-    cursor: pointer;
+  color: #f3c653;
+  cursor: pointer;
 }
 
 .numbers-backlink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.75px;
 
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(20 / 16);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
 
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-    color: #C79002;
+  color: #c79002;
 
-    margin-right: 12.75px;
+  margin-right: 12.75px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .numbers-hero {
-    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-2x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../images/room-2x.jpg);
   }
 }
 
-
 @media screen and (min-width: 414px) {
-    .numbers-container {
-        width: 414px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  .numbers-container {
+    width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
+  .numbers-hero {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../images/room-tablet.jpg);
+    background-size: cover;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-tablet.jpg);
-        background-size: cover;
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 8.07%,
+          rgba(0, 0, 0, 0) 16.15%
+        ),
+        url(../images/room-tablet-2x.jpg);
     }
-
-    @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-tablet-2x.jpg);
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .numbers-container {
-        width: 1024px;
-        padding-left: 47px;
-        padding-right: 47px;
-    }
+  .numbers-container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
 
+  .numbers-hero {
+    height: 718px;
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../images/room-desktop.jpg);
+  }
+
+  .btn-left {
+    top: 340px;
+    left: 47px;
+  }
+
+  .btn-right {
+    top: 340px;
+    right: 47px;
+  }
+
+  .numbers-h1 {
+    margin-bottom: 24px;
+    padding-top: 468px;
+    font-size: 36px;
+    line-height: calc(41 / 36);
+    letter-spacing: 0.05em;
+  }
+
+  .numbers-hero-text {
+    max-width: 400px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+
+  .numbers-adress {
+    position: static;
+    width: 285px;
+    height: 56px;
+    gap: 16px;
+    padding-left: 16px;
+  }
+
+  .adress-text {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+
+  .numbers-hero-socials {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .numbers-social-item {
+    margin-top: 0;
+  }
+
+  .number-price-modal-button {
+    position: absolute;
+    bottom: 62px;
+    right: 47px;
+  }
+
+  .hero-wrap {
+    margin-top: 24px;
+    gap: 41px;
+  }
+
+  .numbers-description-header-wrap > .numbers-text {
+    max-width: 757px;
+  }
+
+  .numbers-description {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .numbers-discription-list {
+    display: flex;
+    gap: 80px;
+  }
+
+  .numbers-text {
+    max-width: 400px;
+  }
+
+  .number-booking-modal-button {
+    width: 434px;
+    margin-left: 480px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+
+  .numbers-backlink-wrap {
+    margin-left: 480px;
+    justify-content: flex-start;
+  }
+
+  .numbers-backlink {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .numbers-hero {
-        height: 718px;
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-desktop.jpg);
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 8.07%,
+          rgba(0, 0, 0, 0) 16.15%
+        ),
+        url(../images/room-desktop-2x.jpg);
     }
-
-    .btn-left {
-        top: 340px;
-        left: 47px;
-    }
-
-    .btn-right {
-        top: 340px;
-        right: 47px;
-    }
-
-    .numbers-h1 {
-        margin-bottom: 24px;
-        padding-top: 468px;
-        font-size: 36px;
-        line-height: calc(41 / 36);
-        letter-spacing: 0.05em;
-    }
-
-    .numbers-hero-text {
-        max-width: 400px;
-        font-size: 16px;
-        line-height: calc(20 / 16);
-    }
-
-    .numbers-adress {
-        position: static;
-        width: 285px;
-        height: 56px;
-        gap: 16px;
-        padding-left: 16px;
-    }
-
-    .adress-text {
-        font-size: 16px;
-        line-height: calc(20 / 16);
-    }
-
-    .numbers-hero-socials {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 23px;
-    }
-
-    .numbers-social-item {
-        margin-top: 0;
-    }
-
-    .number-price-modal-button {
-        position: absolute;
-        bottom: 62px;
-        right: 47px;
-    }
-
-    .hero-wrap {
-        margin-top: 24px;
-        gap: 41px;
-    }
-
-    .numbers-description-header-wrap > .numbers-text {
-        max-width: 757px;
-    }
-
-    .numbers-description {
-        padding-top: 50px;
-        padding-bottom: 40px;
-    }
-
-    .numbers-discription-list {
-        display: flex;
-        gap: 80px;
-    }
-
-    .numbers-text {
-        max-width: 400px;
-    }
-
-    .number-booking-modal-button {
-        width: 434px;
-        margin-left: 480px;
-        margin-top: 40px;
-        margin-bottom: 32px;
-    }
-
-    .numbers-backlink-wrap {
-        margin-left: 480px;
-        justify-content: flex-start;
-    }
-    
-    .numbers-backlink {
-        font-size: 20px;
-        line-height: calc(24 / 20);
-    }
-
-    @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-desktop-2x.jpg);
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .numbers-container {
-        width: 1280px;
-        padding-left: 85px;
-        padding-right: 85px;
-    }
+  .numbers-container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
 
-    .numbers-hero {
-        height: 720px;
-    }
+  .numbers-hero {
+    height: 720px;
+  }
 
-    .btn-left {
-        top: 412px;
-        left: 85px;
-    }
+  .btn-left {
+    top: 412px;
+    left: 85px;
+  }
 
-    .btn-right {
-        top: 412px;
-        right: 85px;
-    }
+  .btn-right {
+    top: 412px;
+    right: 85px;
+  }
 
-     .numbers-h1 {
-        padding-top: 524px;
-     }
+  .numbers-h1 {
+    padding-top: 524px;
+  }
 
-    .numbers-adress {
-        display: none;
-    }
+  .numbers-adress {
+    display: none;
+  }
 
-    .numbers-hero-socials {
-        position: absolute;
-        top: 41px;
-        right: 88px;
-    }
+  .numbers-hero-socials {
+    position: absolute;
+    top: 41px;
+    right: 88px;
+  }
 
-    .number-price-modal-button {
-        bottom: 66px;
-        right: 85px;
-    }
+  .number-price-modal-button {
+    bottom: 66px;
+    right: 85px;
+  }
 
-    .numbers-discription-list {
-        gap: 159px;
-    }
+  .numbers-discription-list {
+    gap: 159px;
+  }
 
-    .number-booking-modal-button {
-        margin-left: 559px;
-    }
+  .number-booking-modal-button {
+    margin-left: 559px;
+  }
 
-     .numbers-backlink-wrap {
-        margin-left: 559px;
-    }
+  .numbers-backlink-wrap {
+    margin-left: 559px;
+  }
 
-    .numbers-description {
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
+  .numbers-description {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 }
