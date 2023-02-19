@@ -38,6 +38,39 @@ li {
     background-position: center;
 }
 
+.room-hero-btn {
+    width: 40px;
+    height: 40px;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-left {
+    position: absolute;
+    top: 350px;
+    left: 15px;
+}
+
+.btn-right {
+    position: absolute;
+    top: 350px;
+    right: 15px;
+}
+
+.btn-switch-icon {
+    fill: #FFFFFF;
+}
+
+.room-hero-btn:hover > .btn-switch-icon,
+.room-hero-btn:focus > .btn-switch-icon {
+    fill: #F3C653;
+}
+
 .numbers-adress {
     position: absolute;
     top: 64px;
@@ -124,6 +157,13 @@ li {
     color: #F3C653;
 }
 
+.number-price-modal-button:hover,
+.number-price-modal-button:focus {
+    background: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+
 .numbers-description {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -180,14 +220,35 @@ li {
     margin-bottom: 20px;
 }
 
+.number-booking-modal-button:hover,
+.number-booking-modal-button:focus {
+    background: #F3C653;
+    border: 1px solid #F3C653;
+    color: #000000;
+}
+
 .numbers-backlink-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.numbers-backlink:hover,
+.numbers-backlink:focus > .numbers-backlink-icon{
+    display: none;
+}
+
+.numbers-backlink:hover,
+.numbers-backlink:focus {
+    color: #F3C653;
+}
+
 .numbers-backlink {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.75px;
+
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
@@ -198,12 +259,6 @@ li {
     color: #C79002;
 
     margin-right: 12.75px;
-}
-
-.numbers-backlink-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -246,6 +301,16 @@ li {
     .numbers-hero {
         height: 718px;
         background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(../images/room-desktop.jpg);
+    }
+
+    .btn-left {
+        top: 340px;
+        left: 47px;
+    }
+
+    .btn-right {
+        top: 340px;
+        right: 47px;
     }
 
     .numbers-h1 {
@@ -350,6 +415,16 @@ li {
 
     .numbers-hero {
         height: 720px;
+    }
+
+    .btn-left {
+        top: 412px;
+        left: 85px;
+    }
+
+    .btn-right {
+        top: 412px;
+        right: 85px;
     }
 
      .numbers-h1 {
