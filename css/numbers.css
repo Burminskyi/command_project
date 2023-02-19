@@ -69,17 +69,18 @@ li {
 
 .btn-switch-icon {
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .room-hero-btn:hover > .btn-switch-icon,
-.room-hero-btn:focus > .btn-switch-icon {
+.room-hero-btn:focus > .btn-switch-icon,
+.room-hero-btn:active > .btn-switch-icon {
   fill: #f3c653;
 }
 
 .room-hero-btn:hover,
 .room-hero-btn:focus {
   cursor: pointer;
-  fill: #f3c653;
 }
 
 .numbers-adress {
@@ -154,7 +155,7 @@ li {
   width: 232px;
   height: 48px;
 
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 
   border: 2px solid #ffffff;
   border-radius: 25px;
@@ -165,11 +166,15 @@ li {
   letter-spacing: 0.02em;
 
   color: #f3c653;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-price-modal-button:hover,
-.number-price-modal-button:focus {
-  background: #ffffff;
+.number-price-modal-button:focus,
+.number-price-modal-button:active {
+  background-color: #ffffff;
   border: 2px solid #f3c653;
   cursor: pointer;
 }
@@ -214,7 +219,7 @@ li {
   width: 100%;
   height: 64px;
 
-  background: #000000;
+  background-color: #000000;
 
   border: 1px solid #f3c653;
   border-radius: 25px;
@@ -228,11 +233,16 @@ li {
 
   margin-top: 32px;
   margin-bottom: 20px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-booking-modal-button:hover,
-.number-booking-modal-button:focus {
-  background: #f3c653;
+.number-booking-modal-button:focus,
+.number-booking-modal-button:active {
+  background-color: #f3c653;
   border: 1px solid #f3c653;
   color: #000000;
   cursor: pointer;
@@ -242,17 +252,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.numbers-backlink:hover > .numbers-backlink-icon,
-.numbers-backlink:focus > .numbers-backlink-icon {
-  visibility: hidden;
-}
-
-.numbers-backlink:hover,
-.numbers-backlink:focus {
-  color: #f3c653;
-  cursor: pointer;
 }
 
 .numbers-backlink {
@@ -271,6 +270,20 @@ li {
   color: #c79002;
 
   margin-right: 12.75px;
+
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.numbers-backlink:hover > .numbers-backlink-icon,
+.numbers-backlink:focus > .numbers-backlink-icon {
+  visibility: hidden;
+}
+
+.numbers-backlink:hover,
+.numbers-backlink:focus {
+  color: #f3c653;
+  cursor: pointer;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
