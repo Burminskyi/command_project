@@ -241,7 +241,7 @@ li {
     justify-content: center;
 }
 
-.numbers-backlink:hover,
+.numbers-backlink:hover > .numbers-backlink-icon,
 .numbers-backlink:focus > .numbers-backlink-icon{
     visibility: hidden;
 }
