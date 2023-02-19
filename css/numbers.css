@@ -71,6 +71,12 @@ li {
     fill: #F3C653;
 }
 
+.room-hero-btn:hover,
+.room-hero-btn:focus {
+    cursor: pointer;
+    fill: #F3C653;
+}
+
 .numbers-adress {
     position: absolute;
     top: 64px;
@@ -161,6 +167,7 @@ li {
 .number-price-modal-button:focus {
     background: #FFFFFF;
     border: 2px solid #F3C653;
+    cursor: pointer;
 }
 
 
@@ -225,6 +232,7 @@ li {
     background: #F3C653;
     border: 1px solid #F3C653;
     color: #000000;
+    cursor: pointer;
 }
 
 .numbers-backlink-wrap {
@@ -241,6 +249,7 @@ li {
 .numbers-backlink:hover,
 .numbers-backlink:focus {
     color: #F3C653;
+    cursor: pointer;
 }
 
 .numbers-backlink {
